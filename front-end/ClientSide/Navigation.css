@@ -1,0 +1,46 @@
+.Navigation {
+    border: 1px solid darkgray;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+}
+
+.NavLeft {
+    float: left;
+}
+
+.NavRight {
+    float: right;
+}
+
+.NavLeftLink, .NavRightLink {
+    font-size: 30px;
+    text-decoration: None;
+    color: black;
+    /*border: 1px solid black;*/
+    margin: 10px;
+}
+
+.NavLeftLink:hover, .NavRightLink:hover {
+    background-color: #ddd;
+}
+
+
+.userInfoActive {
+    border: 2px solid black;
+    right: 5px;
+    text-align: center;
+    position: fixed;
+    margin-top: 52px;
+    transition: 500ms;
+    background-color: white;
+}
+
+.userInfo {
+    position: absolute;
+    left: -100%;
+}
